@@ -19,7 +19,7 @@ A motivação decorre da complexidade inerente ao desenvolvimento de software em
  3. Execução e Resultados
    - Os testes foram executados no hardware real (ESP8266).
    - Resultados foram coletados automaticamente e mostrados no console do PlatformIO, evidenciando o sucesso ou falha de cada caso de teste.
-  
+![](img/saida.png)  
 
  
 
