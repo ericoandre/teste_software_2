@@ -15,18 +15,7 @@ int runUnityTests(void) {
   return UNITY_END();
 }
 
-/**
-  * For native dev-platform or for some embedded frameworks
-  */
-int main(void) {
-  return runUnityTests();
-}
-
-/**
-  * For Arduino framework
-  */
 void setup() {
-  delay(2000);
   runUnityTests();
 }
 
