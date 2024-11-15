@@ -5,8 +5,8 @@
 #define LDRPIN A0 //Atribui A0 a variável ldr
 
 //Declaracao das variaveis da rede Wi-Fi
-String SSID = "COMMON-Graciele";
-String PASSWORD = "191085$%@*)&!@-P";
+String SSID = "ssid";
+String PASSWORD = "passwd";
 
 float valorsensor = 0.0;
 
