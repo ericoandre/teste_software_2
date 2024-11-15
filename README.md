@@ -21,5 +21,17 @@ A motivação decorre da complexidade inerente ao desenvolvimento de software em
    - Resultados foram coletados automaticamente e mostrados no console do PlatformIO, evidenciando o sucesso ou falha de cada caso de teste.
 ![](img/saida.png)  
 
+## Conclusão
+A pesquisa demonstrou que o uso do PlatformIO é uma abordagem eficaz para automação de testes em sistemas embarcados. Os três testes desenvolvidos permitiram validar tanto a integração entre hardware e software quanto funcionalidades específicas. 
+
+Os principais benefícios observados foram:
+
+- Redução do tempo de teste devido à automação.
+- Maior confiabilidade nos resultados, eliminando a interferência de erros humanos comuns em testes manuais.
+
+Dificuldades e Desafios:
+
+<!-- Falta de Documentação Detalhada: Encontrar materiais específicos sobre automação de testes com PlatformIO foi desafiador, especialmente para casos de integração com hardware.  -->
+- Hardware Limitado: O acesso restrito a dispositivos compatíveis (apenas um ESP8266) limitou os experimentos a um único ambiente fisico, dificultando a generalização dos resultados.
  
 
