@@ -18,7 +18,7 @@ A motivação decorre da complexidade inerente ao desenvolvimento de software em
 
 ## Configurando o Ambiente de Testes com PlatformIO
 
-O **PlatformIO** pode ser [instalado](PlatformIO_instalado) como uma extensão no **Visual Studio Code** ou diretamente pela linha de comando. A instalação pode ser feita via **pip**:
+O **PlatformIO** pode ser [instalado](PlatformIO_instalado.md) como uma extensão no **Visual Studio Code** ou diretamente pela linha de comando. A instalação pode ser feita via **pip**:
 
 ```bash
 pip install platformio
