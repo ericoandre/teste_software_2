@@ -6,6 +6,48 @@ O objetivo principal desta pesquisa foi explorar a automação de tarefas relaci
 
 A motivação decorre da complexidade inerente ao desenvolvimento de software embarcado, onde o comportamento final depende de uma interação eficiente entre hardware e software. Testes manuais podem ser demorados e suscetíveis a erros, o que justifica a automação como uma abordagem essencial para melhorar a produtividade e a qualidade do produto.
 
+## O que é PlatformIO?
+
+é um ecossistema de desenvolvimento integrado (IDE) para a programação de sistemas embarcados. Ele oferece um conjunto de ferramentas e bibliotecas que facilitam o desenvolvimento, teste, compilação e depuração de firmware para microcontroladores e sistemas embarcados.
+
+### Benefícios:
+
+**Agilidade**: Simplifica o processo de configuração e desenvolvimento, permitindo que os desenvolvedores foquem no código.<br>
+**Versatilidade**: Ideal tanto para projetos simples quanto para sistemas complexos.<br>
+**Comunidade ativa**: Possui uma ampla base de usuários e documentação robusta.<br>
+
+## Configurando o Ambiente de Testes com PlatformIO
+
+O **PlatformIO** pode ser [instalado](PlatformIO_instalado) como uma extensão no **Visual Studio Code** ou diretamente pela linha de comando. A instalação pode ser feita via **pip**:
+
+```bash
+pip install platformio
+```
+
+Após a instalação, crie um novo projeto utilizando o comando:
+
+```bash
+platformio init --board esp12e  # ou outra placa específica que você esteja utilizando
+```
+
+Isso criará a estrutura básica do projeto, incluindo o arquivo de configuração `platformio.ini`.
+
+### 2. Estrutura de Testes no PlatformIO
+
+No PlatformIO, os testes de integração são escritos em uma pasta chamada `test/` dentro do seu projeto. Cada subpasta em `test/` representa um conjunto de testes. O código de teste pode ser implementado usando bibliotecas como **Unity**, que o PlatformIO oferece como padrão.
+
+A estrutura básica de um projeto de testes de integração seria algo como:
+
+```bash
+project/
+|-- src/
+|   |-- main.cpp       # Código principal do projeto
+|-- test/
+|   |-- test_integration/
+|       |-- test_integration.cpp  # Código de teste de integração
+|-- platformio.ini     # Arquivo de configuração do PlatformIO
+```
+
 ## Descrição do que foi feito
  1. Estruturação do Projeto no PlatformIO
    - Configuração inicial do ambiente de desenvolvimento utilizando PlatformIO, um ecossistema ideal para desenvolvimento e testes em dispositivos embarcados como ESP8266.
@@ -33,5 +75,9 @@ Dificuldades e Desafios:
 
 <!-- Falta de Documentação Detalhada: Encontrar materiais específicos sobre automação de testes com PlatformIO foi desafiador, especialmente para casos de integração com hardware.  -->
 - Hardware Limitado: O acesso restrito a dispositivos compatíveis (apenas um ESP8266) limitou os experimentos a um único ambiente fisico, dificultando a generalização dos resultados.
- 
+
+
+## Referencias
+https://platformio.org/
+https://docs.platformio.org/en/latest/advanced/unit-testing/index.html
 
