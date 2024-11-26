@@ -97,6 +97,8 @@ Dificuldades e Desafios:
 <!-- Falta de Documentação Detalhada: Encontrar materiais específicos sobre automação de testes com PlatformIO foi desafiador, especialmente para casos de integração com hardware.  -->
 - Hardware Limitado: O acesso restrito a dispositivos compatíveis (apenas um ESP8266) limitou os experimentos a um único ambiente fisico, dificultando a generalização dos resultados.
 
+## Apresentação
+[Apresentação](https://docs.google.com/presentation/d/1aDdSry5nMmvFWiUBGOkwDTcqU2o2iQ0qy9wnhTDjffc/edit?usp=sharing)
 
 ## Referencias
 https://platformio.org/<br>
