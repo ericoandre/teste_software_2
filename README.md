@@ -6,7 +6,7 @@ O objetivo principal desta pesquisa foi explorar a automação de tarefas relaci
 
 A motivação decorre da complexidade inerente ao desenvolvimento de software embarcado, onde o comportamento final depende de uma interação eficiente entre hardware e software. Testes manuais podem ser demorados e suscetíveis a erros, o que justifica a automação como uma abordagem essencial para melhorar a produtividade e a qualidade do produto.
 
-## O que é PlatformIO?
+### O que é PlatformIO?
 
 é um ecossistema de desenvolvimento integrado (IDE) para a programação de sistemas embarcados. Ele oferece um conjunto de ferramentas e bibliotecas que facilitam o desenvolvimento, teste, compilação e depuração de firmware para microcontroladores e sistemas embarcados.
 
